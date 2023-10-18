@@ -1,0 +1,487 @@
+body {
+    font-family: 'Poppins', sans-serif;
+      margin: 20px;
+      padding: 10px;
+      background-color: #ffffff;
+      color: #003366;
+  }
+  /* Header Styles */
+  /* ... Your existing CSS ... */
+  
+  /* Header Navigation Styles */
+  header {
+      background-color: #4285F4;
+      padding: 10px 0;
+      text-align: center;
+  }
+  
+  nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+  }
+  
+  nav a {
+      color: #ffffff;
+      padding: 10px 15px;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+  }
+  
+  nav a:hover {
+      background-color: #2A65D1; /* Slightly darker shade of Google blue for hover effect */
+  }
+  
+  /* Centered Navigation */
+  nav {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+  }
+  
+  .nav-links {
+      display: flex;
+      gap: 150px;
+  }
+  
+  .hamburger-menu {
+      display: none;
+      background-color: transparent;
+      border: none;
+      font-size: 24px;
+      cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+      .nav-links {
+          display: none;
+          flex-direction: column;
+          gap: 10px;
+          position: absolute;
+          top: 60px;
+          right: 20px;
+          background-color: #4285F4;
+          border-radius: 5px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          z-index: 1000;
+      }
+  
+      .nav-links a {
+          text-align: center;
+          padding: 10px 20px;
+      }
+  
+      .hamburger-menu {
+          display: block;
+      }
+  }
+  
+  
+  /* Adjusting primary color to Google brand blue */
+  body {
+      color: #4285F4;
+  }
+  
+  h1, h2, h3 {
+      color: #4285F4;
+  }
+  
+  button, nav a {
+      background-color: #4285F4;
+  }
+  
+  button:hover, nav a:hover {
+      background-color: #2A65D1; /* Slightly darker shade of Google blue for hover effect */
+  }
+  
+  .card {
+      border: 1px solid #4285F4;
+  }
+  
+  .info-card {
+      background-color: #4285F4;
+  }
+  
+  footer {
+      background-color: #4285F4;
+  }
+  
+  .footer-section h4 {
+      border-bottom: 2px solid #2A65D1; /* Slightly darker shade for contrast */
+  }
+  
+  
+  h1, h2, h3 {
+      color: #005599;
+      margin-bottom: 20px;
+      text-align: center;
+  }
+  h1 {
+      font-size: 24px;  /* Adjust this value to your preference */
+      color: #005599;
+      margin-bottom: 20px;
+      text-align: center;
+  }
+  button {
+      padding: 10px 15px;
+      border: none;
+      background-color: #005599;
+      color: #ffffff;
+      cursor: pointer;
+      margin: 10px 0;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+      background-color: #003366;
+  }
+  
+  a {
+      color: #005599;
+      transition: color 0.3s ease;
+  }
+  
+  a:hover {
+      color: #003366;
+  }
+  
+  .contact-section {
+      padding: 20px;
+      text-align: center;
+  }
+  
+  .contact-info {
+      margin-bottom: 20px;
+  }
+  
+  .contact-info p, .contact-info a {
+      margin: 10px 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+  }
+  
+  .directions-link {
+      background-color: #4285F4; /* Google Blue */
+      padding: 10px 15px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+  }
+  
+  .directions-link:hover {
+      background-color: #005599;
+  }
+  
+  .form-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 20px;
+  }
+  
+  form label {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      justify-content: center;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="tel"],
+  form textarea {
+      width: 80%;
+      margin: 10px auto;
+      padding: 10px;
+      border: 1px solid #005599;
+      border-radius: 5px;
+  }
+  
+  
+  .card {
+      background-color: #ffffff;
+      margin: 20px auto;
+      padding: 0px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      max-width: 800px;
+  }
+  
+  .hero-section img {
+      max-width: 80%;
+      height: auto;
+      margin-top: 20px;
+      margin-left: 120px;
+      border-radius: 10px;
+  }
+  
+  .idea-images, .credibility-images {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 20px;
+      text-align: center;
+  }
+  
+  .idea-images img, .credibility-images img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+  }
+  
+  .hero-content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+  }
+  
+  .title-slogan {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+  }
+  
+  .company-logo {
+      width: 100px; 
+      height: auto;
+      display: block;
+    margin-right: 50px;
+  }
+  
+  .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+  }
+  
+  /* Info Cards */
+  .info-card {
+      background-color: #4285F4; /* Google Blue */
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      color: #ffffff;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .info-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Font Awesome Icons */
+  .info-card i {
+      font-size: 24px;
+  }
+  
+  /* Different Google Brand Colors for Cards */
+  .sub-section:nth-child(1) .info-card:nth-child(2n) {
+      background-color: #0F9D58; /* Google Green */
+  }
+  
+  .sub-section:nth-child(1) .info-card:nth-child(3n) {
+      background-color: #F4B400; /* Google Yellow */
+  }
+  
+  .sub-section:nth-child(1) .info-card:nth-child(4n) {
+      background-color: #DB4437; /* Google Red */
+  }
+  
+  .sub-section:nth-child(2) .info-card:nth-child(2n) {
+      background-color: #0F9D58; /* Google Green */
+  }
+  
+  .sub-section:nth-child(2) .info-card:nth-child(3n) {
+      background-color: #F4B400; /* Google Yellow */
+  }
+  
+  .sub-section:nth-child(2) .info-card:nth-child(4n) {
+      background-color: #DB4437; /* Google Red */
+  }
+  
+  /* Mobile Responsive Styles */
+  @media (max-width: 768px) {
+      .hero-content {
+          flex-direction: column;
+      }
+  
+      .hero-section img {
+          margin-left: 0;
+          max-width: 100%;
+      }
+  
+      .idea-images, .credibility-images {
+          flex-direction: column;
+          align-items: center;
+      }
+  
+      .company-logo {
+          max-width: 50px;
+          margin-bottom: 10px;
+      }
+  
+      .card-grid {
+          grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+      }
+  }
+  
+  @media (max-width: 480px) {
+      .company-logo {
+          max-width: 30px;
+      }
+  
+      form input[type="text"],
+      form input[type="email"],
+      form input[type="tel"] {
+          width: 100%;
+      }
+  }
+  /* ... Your existing CSS ... */
+  
+  /* ... Your existing CSS ... */
+  
+  footer {
+      background-color: royalblue;
+      color: royalblue;
+      padding: 20px 0;
+      text-align: center;
+  }
+  
+  .footer-section {
+      margin-bottom: 20px;
+  }
+  
+  .footer-section i {
+      margin-right: 10px;
+  }
+  
+  .footer-section a {
+      color: #ffffff;
+      text-decoration: underline;
+  }
+  
+  .footer-section a:hover {
+      color: #e6f7ff;
+  }
+  
+  .footer-section {
+      flex: 1;
+      padding: 10px;
+  }
+  
+  footer h4 {
+      border-bottom: 2px solid #005599;
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+  }
+  
+  footer ul {
+      list-style-type: none;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 20px;
+  }
+  
+  footer li {
+      margin-bottom: 10px;
+      background-color: #4285F4; /* Google Blue */
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      color: #ffffff;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  footer li:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  footer a {
+      color: white;
+      text-decoration: underline;
+  }
+  
+  footer a:hover {
+      text-decoration: none;
+  }
+  /* adjustments */
+  
+  /* Header & Navbar */
+  header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      background-color: #4285F4;
+  }
+  
+  nav {
+      display: flex;
+      gap: 20px;
+  }
+  
+  nav a {
+      color: white;
+      text-decoration: none;
+      padding: 5px 10px;
+      border: 2px solid white;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+  }
+  
+  nav a:hover {
+      background-color: white;
+      color: #4285F4;
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 768px) {
+      nav {
+          flex-direction: column;
+          gap: 10px;
+      }
+  
+      .card-grid {
+          grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      }
+  
+      .design-images img {
+          max-width: 100%;
+          margin: 10px 0;
+      }
+  }
+  
+  @media (max-width: 480px) {
+      header {
+          flex-direction: column;
+          text-align: center;
+      }
+  
+      nav {
+          flex-direction: row;
+          flex-wrap: wrap;
+          gap: 10px;
+          justify-content: center;
+      }
+  }
+  
