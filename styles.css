@@ -546,16 +546,20 @@ body {
     width: 100%; /* Ensure the grid takes the full width */
 }
 
-.map-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    padding: 10px;
-    border: 2px solid #005599;
-    border-radius: 10px;
-    width: 100%; /* Ensure the map card takes the full width of its grid cell */
+.map-card a {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #4285F4; /* Google Blue */
+    color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
 }
+
+.map-card a:hover {
+    background-color: #2A65D1; /* Slightly darker shade of Google blue for hover effect */
+}
+
 
 .flag-large {
     font-size: 48px; /* Adjust this value to your preference */
