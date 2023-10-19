@@ -532,5 +532,44 @@ body {
     color: #ffffff;
     text-decoration: none;
 }
+.maps-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.maps-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.map-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    border: 2px solid #005599;
+    border-radius: 10px;
+}
+
+.flag-large {
+    font-size: 48px; /* Adjust this value to your preference */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .maps-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .maps-grid {
+        grid-template-columns: 1fr;
+    }
+}
 
   
