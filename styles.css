@@ -531,6 +531,13 @@ body {
     color: #ffffff;
     text-decoration: none;
 }
+.footer-section h4 {
+    color: #e6f7ff; /* This ensures the headings are visible against the footer's background */
+    border-bottom: 2px solid #e6f7ff;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
 .maps-section {
     display: flex;
     flex-direction: column;
@@ -549,7 +556,7 @@ body {
 .map-card a {
     display: inline-block;
     padding: 10px 15px;
-    background-color: #4285F4; /* Google Blue */
+   background-color: transparent;  /* Google Blue */
     color: #ffffff;
     border-radius: 5px;
     text-decoration: none;
