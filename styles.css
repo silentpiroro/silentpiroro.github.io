@@ -522,6 +522,21 @@ body {
     gap: 20px;
 }
 
+@media (max-width: 768px) {
+    .footer-nav ul {
+        flex-direction: column; /* Stack the links vertically */
+        align-items: center; /* Center the links */
+    }
+    
+    .footer-nav li {
+        margin-bottom: 10px; /* Add some space between the links */
+    }
+    
+    .footer-nav a {
+        font-size: 14px; /* Adjust font size if necessary */
+    }
+}
+
 .footer-nav li {
     margin-bottom: 10px;
 }
