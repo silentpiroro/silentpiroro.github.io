@@ -550,13 +550,13 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    padding: 20px;
+    padding: 10px;
     border: 2px solid #005599;
     border-radius: 10px;
 }
 
 .flag-large {
-    font-size: 5px; /* Adjust this value to your preference */
+    font-size: 48px; /* Adjust this value to your preference */
 }
 
 /* Responsive adjustments */
