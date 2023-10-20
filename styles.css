@@ -584,13 +584,13 @@ body {
     transition: background-color 0.3s ease;
 }
 
-.map-card a:hover {
+.map-card a: {
     background-color: #2A65D1; /* Slightly darker shade of Google blue for hover effect */
 }
 
 
 .flag-large {
-    font-size: 100px; /* Adjust this value to your preference */
+    font-size: 150px; /* Adjust this value to your preference */
 }
 
 /* Responsive adjustments */
