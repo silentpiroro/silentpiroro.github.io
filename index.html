@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="icon" href="https://res.cloudinary.com/dq928gtws/image/upload/v1697616341/141694245909_.pic_ubnk4i.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
   <script src="https://kit.fontawesome.com/466959e73f.js" crossorigin="anonymous"></script>
   <script src="https://cdn.emailjs.com/dist/email.min.js" type="text/javascript"></script>
@@ -202,27 +203,37 @@
         <a href="https://www.google.com/maps/search/?api=1&query=48+shijing+road,+haining+city,+Jiaxing+city+Zhejiang+province,+china,+314400" target="_blank" class="directions-link"><i class="fas fa-directions"></i> Get directions</a>
 
     </div>
-    <form>
-        <label><i class="fas fa-user"></i> Name</label>
-        <input type="text" name="name" required>
-        
-        <label><i class="fas fa-envelope"></i> Email*</label>
-        <input type="email" name="email" required>
-        
-        <label><i class="fas fa-phone-alt"></i> Phone</label>
-        <input type="tel" name="phone">
-        
-        <label><i class="fas fa-comment-dots"></i> Message</label>
-        <textarea name="message" required></textarea>
-        
-        <label><i class="fas fa-paperclip"></i> Attach Files</label>
-        <input type="file" name="file">
-        
-        <div class="form-buttons">
-            <button type="submit"><i class="fas fa-paper-plane"></i> Send</button>
-            <button type="reset"><i class="fas fa-times"></i> Cancel</button>
+      
+<form id="contact-form">
+    
+    <label><i class="fas fa-user"></i> Name</label>
+    <input type="text" name="name" required>
+    
+    <label><i class="fas fa-envelope"></i> Email*</label>
+    <input type="email" name="email" required>
+    
+    <label><i class="fas fa-phone-alt"></i> Phone</label>
+    <input type="tel" name="phone">
+    
+    <label><i class="fas fa-comment-dots"></i> Message</label>
+    <textarea name="message" required></textarea>
+    
+    <label><i class="fas fa-paperclip"></i> Google Drive Links</label>
+    <div id="link-container">
+        <div class="link-input-group">
+            <input type="url" name="drive-link" class="drive-link" placeholder="https://drive.google.com/..." required>
+            <button type="button" class="add-link" onclick="addLinkInput()">
+                <i class="fas fa-plus"></i>
+            </button>
         </div>
-    </form>
+    </div>
+    
+    <div class="form-buttons">
+        <button type="submit"><i class="fas fa-paper-plane"></i> Send</button>
+        <button type="reset"><i class="fas fa-times"></i> Cancel</button>
+    </div>
+</form>
+      
 </section>
     
     <div class="footer-section">
