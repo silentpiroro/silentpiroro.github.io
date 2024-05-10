@@ -622,7 +622,7 @@ form {
 /* Centering the entire link container */
 #link-container {
     margin: 0 auto;
-    width: 70%;
+    width: 80%;
     max-width: 400px;
 }
 
@@ -641,7 +641,7 @@ form {
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    width: 50%;
+    width: 70%;
     box-sizing: border-box;
 }
 
