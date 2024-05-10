@@ -606,19 +606,44 @@ body {
     }
 }
 
+/* Centering the entire link container */
+#link-container {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 400px;
+}
+
+/* Drive link input groups */
 .link-input-group {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin-bottom: 10px;
 }
 
+/* Make inputs narrower */
 .link-input-group input {
     flex: 1;
-    margin-right: 5px;
+    margin-right: 8px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 70%;
+    box-sizing: border-box;
 }
 
-.link-placeholder {
-    color: #999;
+/* Style for buttons within link groups */
+.link-input-group button {
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    padding: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
 }
 
+.link-input-group button:hover {
+    background-color: #0056b3;
+}
   
