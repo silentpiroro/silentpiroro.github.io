@@ -7,10 +7,14 @@ document.addEventListener("DOMContentLoaded", function() {
     form.addEventListener("submit", function(event) {
         event.preventDefault();
 
-        // Get all Google Drive links into a single string
-        const driveLinks = Array.from(document.querySelectorAll(".drive-link"))
-            .map(linkInput => linkInput.value)
-            .join(", ");
+        // Prepare the links dynamically, labeling them individually
+        const driveLinkElements = document.querySelectorAll(".drive-link");
+        let driveLinks = '';
+
+        driveLinkElements.forEach((linkInput, index) => {
+            const linkNumber = index + 1; // Starts counting from 1
+            driveLinks += `Drive Link ${linkNumber}: <a href="${linkInput.value}" target="_blank">${linkInput.value}</a><br>`;
+        });
 
         // Collect all form data
         const formData = {
@@ -59,4 +63,3 @@ function addLinkInput() {
     linkInputGroup.appendChild(removeButton);
     linkContainer.appendChild(linkInputGroup);
 }
-;
