@@ -50,7 +50,7 @@ function addLinkInput() {
     newLinkInput.name = 'drive-link';
     newLinkInput.classList.add('drive-link');
     newLinkInput.placeholder = 'https://drive.google.com/...';
-    newLinkInput.required = true;
+    newLinkInput.required = false;
     
     const removeButton = document.createElement('button');
     removeButton.type = 'button';
