@@ -606,4 +606,19 @@ body {
     }
 }
 
+.link-input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.link-input-group input {
+    flex: 1;
+    margin-right: 5px;
+}
+
+.link-placeholder {
+    color: #999;
+}
+
   
