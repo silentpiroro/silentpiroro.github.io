@@ -5,18 +5,18 @@
     --dark-color: #003366;
     --white-color: #ffffff;
     --black-color: #000000;
-    --padding-small: 0.625rem;
-    --padding-medium: 1.25rem;
-    --padding-large: 2rem;
-    --margin-small: 0.625rem;
-    --margin-medium: 1.25rem;
-    --margin-large: 2rem;
-    --gap-small: 0.625rem;
-    --gap-medium: 1.25rem;
-    --gap-large: 2rem;
+    --padding-small: 0.5rem;
+    --padding-medium: 1rem;
+    --padding-large: 1.5rem;
+    --margin-small: 0.5rem;
+    --margin-medium: 1rem;
+    --margin-large: 1.5rem;
+    --gap-small: 0.5rem;
+    --gap-medium: 1rem;
+    --gap-large: 1.5rem;
     --border-radius: 0.5rem;
-    --box-shadow-light: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
-    --box-shadow-dark: 0 0.375rem 0.75rem rgba(0, 0, 0, 0.15);
+    --box-shadow-light: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+    --box-shadow-dark: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.15);
     --transition: 0.3s ease;
     --max-width: 1200px;
     --breakpoint-large: 1024px;
@@ -110,12 +110,12 @@ nav a:hover {
 }
 
 .hero-content img {
-    max-width: 150px;
+    max-width: 100px;
     margin-bottom: var(--margin-small);
 }
 
 .hero-content .slogan {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 500;
     color: var(--primary-color);
 }
@@ -161,7 +161,7 @@ nav a:hover {
 }
 
 .info-card i {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     transition: color var(--transition);
 }
 
@@ -302,7 +302,7 @@ form input[type="text"],
 form input[type="email"],
 form input[type="tel"],
 form textarea {
-    width: 80%;
+    width: 100%;
     margin: var(--margin-medium) auto;
     padding: var(--padding-small);
     border: 1px solid var(--light-grey);
