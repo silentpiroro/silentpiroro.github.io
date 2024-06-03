@@ -18,94 +18,96 @@
 </head>
 <body>
 <header>
-    <nav>
-        <button id="menu-toggle" class="hamburger-menu">
+    <nav aria-label="Main Navigation">
+        <button id="menu-toggle" class="hamburger-menu" aria-label="Menu Toggle">
             <i class="fas fa-bars"></i>
         </button>
-        <div id="nav-links" class="nav-links">
-            <a href="#hero-section">Home</a>
-            <a href="#about-section">About</a>
-            <a href="#idea-section">Ideas</a>
-            <a href="#credibility-section">Credibility</a>
-            <a href="https://codepen.io/sypiroro/full/NWmYQNR">Print on Demand</a>
-            <a href="#contact-section">Contact</a>
-        </div>
+        <ul id="nav-links" class="nav-links">
+            <li><a href="#hero-section">Home</a></li>
+            <li><a href="#about-section">About</a></li>
+            <li><a href="#idea-section">Ideas</a></li>
+            <li><a href="#credibility-section">Credibility</a></li>
+            <li><a href="https://codepen.io/sypiroro/full/NWmYQNR">Print on Demand</a></li>
+            <li><a href="#contact-section">Contact</a></li>
+        </ul>
     </nav>
 </header>
 
   
-<section class="hero-section" id="hero-section">
-  <div class="hero-content">
-    <img src="https://res.cloudinary.com/dq928gtws/image/upload/v1697616341/141694245909_.pic_ubnk4i.png" alt="Company Logo" class="company-logo">
-    <div class="title-slogan">
-        <h1>WALT TECHNOLOGY GROUP CO. LTD</h1>
+<section class="hero-section" id="hero-section" role="banner">
+    <div class="hero-content">
+        <figure>
+            <img src="https://res.cloudinary.com/dq928gtws/image/upload/v1697616341/141694245909_.pic_ubnk4i.png" alt="Walt Technology Group Company Logo" class="company-logo">
+            <figcaption>WALT TECHNOLOGY GROUP CO. LTD</figcaption>
+        </figure>
         <p class="slogan">For The Future And Beyond, We Are Ready</p>
     </div>
-  </div>
-   <img src="https://res.cloudinary.com/dq928gtws/image/upload/v1697616218/DALL_E_2023-10-18_12.14.49_-_High-definition_photo_tailored_for_a_website_hero_page_showcasing_spools_of_white_and_green_yarn_gracefully_unraveling_and_evolving_into_meticulously_zisajp.png" alt="Hero Image">
+    <figure>
+        <img src="https://res.cloudinary.com/dq928gtws/image/upload/v1697616218/DALL_E_2023-10-18_12.14.49_-_High-definition_photo_tailored_for_a_website_hero_page_showcasing_spools_of_white_and_green_yarn_gracefully_unraveling_and_evolving_into_meticulously_zisajp.png" alt="High-definition photo showcasing spools of white and green yarn">
+    </figure>
 </section>
 
 <section class="about-section card" id="about-section">
     <h2>About Walt Technology Group Co. Ltd</h2>
     
-  <!-- Our Story Section -->
-<div class="sub-section">
-    <h3>Our Story</h3>
+<!-- Our Story Section -->
+<section class="sub-section">
+    <h2>Our Story</h2>
     <div class="card-grid">
-        <div class="info-card"><i class="fas fa-globe"></i> Over 2000 staff across the globe.</div>
-        <div class="info-card"><i class="fas fa-history"></i> More than 20 years in the apparel manufacturing industry.</div>
-        <div class="info-card"><i class="fas fa-industry"></i> Fully vertical operations.</div>
-        <div class="info-card"><i class="fas fa-building"></i> With offices and manufacturing locations in China, Europe, North & South America, and Southeast Asia.</div>
-        <div class="info-card"><i class="fas fa-space-shuttle"></i> 4700sqm of product development space, one stop shop: raw materials, design, sampling, packaging.</div>
-        <div class="info-card"><i class="fas fa-cogs"></i> Over 200 units of sampling machines, different cylinder sizes, needle counts, and types.</div>
-        <div class="info-card"><i class="fas fa-palette"></i> 600+ raw material and color assortments dedicated for sampling.</div>
+        <div class="info-card"><i class="fas fa-globe" alt="Globe icon"></i> Over 2000 staff across the globe.</div>
+        <div class="info-card"><i class="fas fa-history" alt="History icon"></i> More than 20 years in the apparel manufacturing industry.</div>
+        <div class="info-card"><i class="fas fa-industry" alt="Industry icon"></i> Fully vertical operations.</div>
+        <div class="info-card"><i class="fas fa-building" alt="Building icon"></i> With offices and manufacturing locations in China, Europe, North & South America, and Southeast Asia.</div>
+        <div class="info-card"><i class="fas fa-space-shuttle" alt="Space shuttle icon"></i> 4700sqm of product development space, one stop shop: raw materials, design, sampling, packaging.</div>
+        <div class="info-card"><i class="fas fa-cogs" alt="Cogs icon"></i> Over 200 units of sampling machines, different cylinder sizes, needle counts, and types.</div>
+        <div class="info-card"><i class="fas fa-palette" alt="Palette icon"></i> 600+ raw material and color assortments dedicated for sampling.</div>
     </div>
     <section class="video-section">
         <h3>Our Technology</h3>
-    <video width="100%" controls autoplay loop muted height="auto">
-        <source src="https://res.cloudinary.com/dq928gtws/video/upload/v1697689853/hdgc.d808ee32_a3mb2e.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+        <figure>
+            <video width="100%" controls autoplay loop muted height="auto">
+                <source src="https://res.cloudinary.com/dq928gtws/video/upload/v1697689853/hdgc.d808ee32_a3mb2e.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <figcaption>Our Technology</figcaption>
+        </figure>
+    </section>
 </section>
-</div>
   
-  <!-- Our capacity section -->
-    
-      <div class="sub-section">
-        <h3>Our Capacity</h3>
-        <div class="card-grid">
-            <div class="info-card"><i class="fas fa-socks"></i> Weekly capacity to produce more than 4 million pairs of socks.</div>
-            <div class="info-card"><i class="fas fa-tachometer-alt"></i> Annual capacity exceeding 200M pairs of socks.</div>
-            <div class="info-card"><i class="fas fa-users"></i> International pool of designers.</div>
-            <div class="info-card"><i class="fas fa-cogs"></i> Strong engineering team to focus on technical aspects of the products.</div>
-            <div class="info-card"><i class="fas fa-globe"></i> Global Logistics Warehouses in Logan Utah, USA, Long Beach California, USA and Zhejiang Haining, China.</div>
-        </div>
+<!-- Our capacity section -->
+<section class="sub-section">
+    <h3>Our Capacity</h3>
+    <div class="card-grid">
+        <div class="info-card"><i class="fas fa-socks" alt="Socks icon"></i> Weekly capacity to produce more than 4 million pairs of socks.</div>
+        <div class="info-card"><i class="fas fa-tachometer-alt" alt="Tachometer icon"></i> Annual capacity exceeding 200M pairs of socks.</div>
+        <div class="info-card"><i class="fas fa-users" alt="Users icon"></i> International pool of designers.</div>
+        <div class="info-card"><i class="fas fa-cogs" alt="Cogs icon"></i> Strong engineering team to focus on technical aspects of the products.</div>
+        <div class="info-card"><i class="fas fa-globe" alt="Globe icon"></i> Global Logistics Warehouses in Logan Utah, USA, Long Beach California, USA and Zhejiang Haining, China.</div>
     </div>
+</section>
 
 <!-- Our Sustainability Section -->
-<div class="sub-section">
+<section class="sub-section">
     <h3>Our Sustainability</h3>
     <div class="card-grid">
-        <div class="info-card"><i class="fas fa-robot"></i> Coordinated robotic forklift</div>
-        <div class="info-card"><i class="fas fa-truck-moving"></i> Automatic transport system</div>
-        <div class="info-card"><i class="fas fa-box"></i> Automated pick and pack.</div>
-        <div class="info-card"><i class="fas fa-warehouse"></i> 3D storage that brings out the needed dye color bases per dye recipe.</div>
-        <div class="info-card"><i class="fas fa-tint"></i> We use high efficient dyeing equipment to conserve water.</div>
-        <div class="info-card"><i class="fas fa-recycle"></i> On-site filtration system results to 80% of recycled water used within the facility that is also environmentally responsible.</div>
-        <div class="info-card"><i class="fas fa-water"></i> By utilizing river water in our facility, we not only save on cost, but more importantly it is sustainable and environmentally sound.</div>
-        <div class="info-card"><i class="fas fa-calculator"></i> Auto controls the amount to be used in production by computerized weight calculation.</div>
-        <div class="info-card"><i class="fas fa-solar-panel"></i> Energy Saving Equipment such as rooftop solar panels.</div>
+        <div class="info-card"><i class="fas fa-robot" alt="Robot icon"></i> Coordinated robotic forklift</div>
+        <div class="info-card"><i class="fas fa-truck-moving" alt="Truck moving icon"></i> Automatic transport system</div>
+        <div class="info-card"><i class="fas fa-box" alt="Box icon"></i> Automated pick and pack.</div>
+        <div class="info-card"><i class="fas fa-warehouse" alt="Warehouse icon"></i> 3D storage that brings out the needed dye color bases per dye recipe.</div>
+        <div class="info-card"><i class="fas fa-tint" alt="Tint icon"></i> We use high efficient dyeing equipment to conserve water.</div>
+        <div class="info-card"><i class="fas fa-recycle" alt="Recycle icon"></i> On-site filtration system results to 80% of recycled water used within the facility that is also environmentally responsible.</div>
+        <div class="info-card"><i class="fas fa-water" alt="Water icon"></i> By utilizing river water in our facility, we not only save on cost, but more importantly it is sustainable and environmentally sound.</div>
+        <div class="info-card"><i class="fas fa-calculator" alt="Calculator icon"></i> Auto controls the amount to be used in production by computerized weight calculation.</div>
+        <div class="info-card"><i class="fas fa-solar-panel" alt="Solar panel icon"></i> Energy Saving Equipment such as rooftop solar panels.</div>
     </div>
-</div>
+</section>
 
-  <!-- Our Design Space -->
-  
- <div class="sub-section">
-        <h3>Our Design Space</h3>
-        <div class="design-images">
-            <img src="https://res.cloudinary.com/dq928gtws/image/upload/v1697616218/Picture_2_j5x8wi.png">
-            <img src="https://res.cloudinary.com/dq928gtws/image/upload/v1697616218/Picture_1_bdxdzh.png">
-        </div>
+<!-- Our Design Space -->
+<section class="sub-section">
+    <h3>Our Design Space</h3>
+    <div class="design-images">
+        <img src="https://res.cloudinary.com/dq928gtws/image/upload/v1697616218/Picture_2_j5x8wi.png" alt="Design Space Image 1">
+        <img src="https://res.cloudinary.com/dq928gtws/image/upload/v1697616218/Picture_1_bdxdzh.png" alt="Design Space Image 2">
     </div>
 </section>
 
@@ -133,98 +135,101 @@
 
 <footer class="card">
     
-         <!-- Maps Section -->
-<section class="maps-section card">
-    <h3>Our Global Presence</h3>
-    <div class="maps-grid">
-        <!-- China Map -->
-        <div class="map-card">
-            <span class="flag-icon flag-icon-cn flag-large"></span>
-            <a href="https://maps.app.goo.gl/dkFsxLEgj3Vch56H9" target="_blank"> View on Google Maps</a>
-            <p>Walt Tec China: 48 Shijing Rd, Haining, Jiaxing, Zhejiang, China, 314400</p>
-        </div>
-        <!-- Add other maps similarly -->
-        <!-- USA Map -->
-        <div class="map-card">
-            <span class="flag-icon flag-icon-us flag-large"></span>
-         <a href="https://maps.app.goo.gl/2LBdKunDM7zJ7TRk6" target="_blank"> View on Google Maps</a>
-            <p>WaltUSA, 2929 N Main Street, North Logan, Utah</p>
-        </div>
-        <!-- Cambodia Map -->
-        <div class="map-card">
-            <span class="flag-icon flag-icon-kh flag-large"></span>
-              <a href="https://maps.app.goo.gl/6vCN6TiwyAyMyTwz5" target="_blank">View on Google Maps</a>
-            <p>Walt Cambodia: West Harbor Special Economic Zone, Prey Nop District, Preah Sihanouk, Sihanoukville, Cambodia</p>
-        </div>
-        <!-- Japan Map -->
-       <div class="map-card">
-            <span class="flag-icon flag-icon-jp flag-large"></span>
-              <a href="https://maps.app.goo.gl/cjb9S65Upfzuntd2A" target="_blank">View on Google Maps</a>
-            <p>Walt Japan, LIFULL HUB 2F 1-4-4, Koujimachi, CHIYODA-KU, Tokyo Japan 102-0083</p>
-        </div>
-    </div>
-</section>
+        <!-- Maps Section -->
+        <section class="maps-section card">
+            <h3>Our Global Presence</h3>
+            <div class="maps-grid">
+                <!-- China Map -->
+                <div class="map-card">
+                    <span class="flag-icon flag-icon-cn flag-large"></span>
+                    <a href="https://maps.app.goo.gl/dkFsxLEgj3Vch56H9" target="_blank" rel="noopener"> View on Google Maps</a>
+                    <address>Walt Tec China: 48 Shijing Rd, Haining, Jiaxing, Zhejiang, China, 314400</address>
+                </div>
+                <!-- Add other maps similarly -->
+                <!-- USA Map -->
+                <div class="map-card">
+                    <span class="flag-icon flag-icon-us flag-large"></span>
+                    <a href="https://maps.app.goo.gl/2LBdKunDM7zJ7TRk6" target="_blank" rel="noopener"> View on Google Maps</a>
+                    <address>WaltUSA, 2929 N Main Street, North Logan, Utah</address>
+                </div>
+                <!-- Cambodia Map -->
+                <div class="map-card">
+                    <span class="flag-icon flag-icon-kh flag-large"></span>
+                    <a href="https://maps.app.goo.gl/6vCN6TiwyAyMyTwz5" target="_blank" rel="noopener">View on Google Maps</a>
+                    <address>Walt Cambodia: West Harbor Special Economic Zone, Prey Nop District, Preah Sihanouk, Sihanoukville, Cambodia</address>
+                </div>
+                <!-- Japan Map -->
+                <div class="map-card">
+                    <span class="flag-icon flag-icon-jp flag-large"></span>
+                    <a href="https://maps.app.goo.gl/cjb9S65Upfzuntd2A" target="_blank" rel="noopener">View on Google Maps</a>
+                    <address>Walt Japan, LIFULL HUB 2F 1-4-4, Koujimachi, CHIYODA-KU, Tokyo Japan 102-0083</address>
+                </div>
+            </div>
+        </section>
 
     </div>
-    <div class="footer-section">
+    <!-- Affiliates Section -->
+    <section class="footer-section">
         <h3>Affiliates:</h3>
         <ul>
-            <li><i class="fas fa-link"></i> <a href="http://www.neu-ink.com">www.neu-ink.com</a></li>
-            <li><i class="fas fa-link"></i> <a href="http://www.xwaist.com">www.xwaist.com</a></li>
-            <li><i class="fas fa-link"></i> <a href="http://www.comfort-fresh.com">www.comfort-fresh.com</a></li>
-            <li><i class="fas fa-link"></i> <a href="http://www.inksoc.com">www.inksoc.com</a></li>
+            <li><i class="fas fa-link" alt="Link Icon"></i> <a href="http://www.neu-ink.com" rel="noopener">www.neu-ink.com</a></li>
+            <li><i class="fas fa-link" alt="Link Icon"></i> <a href="http://www.xwaist.com" rel="noopener">www.xwaist.com</a></li>
+            <li><i class="fas fa-link" alt="Link Icon"></i> <a href="http://www.comfort-fresh.com" rel="noopener">www.comfort-fresh.com</a></li>
+            <li><i class="fas fa-link" alt="Link Icon"></i> <a href="http://www.inksoc.com" rel="noopener">www.inksoc.com</a></li>
         </ul>
-    </div>
-  
-  <div class="footer-section">
+    </section>
+
+    <!-- Printing on Demand Technology Section -->
+    <section class="footer-section">
         <h3 id="print-on-demand">Printing on Demand Technology</h3>
         <p>We can print anything on apparel using the most advanced and state-of-the-art digital printing technologies. Our capabilities include:</p>
         <ul>
-            <li><i class="fas fa-print"></i> 360 Digital Printing</li>
-            <li><i class="fas fa-layer-group"></i> Screen Printing</li>
-            <li><i class="fas fa-thread"></i> Embroidery</li>
-            <li><i class="fas fa-temperature-high"></i> Sublimation</li>
+            <li><i class="fas fa-print" alt="Print Icon"></i> 360 Digital Printing</li>
+            <li><i class="fas fa-layer-group" alt="Layer Icon"></i> Screen Printing</li>
+            <li><i class="fas fa-thread" alt="Thread Icon"></i> Embroidery</li>
+            <li><i class="fas fa-temperature-high" alt="Temperature Icon"></i> Sublimation</li>
         </ul>
-      <section class="print-on-demand-video">
-    <video width="100%" controls autoplay loop muted height="auto">
-        <source src="https://res.cloudinary.com/dq928gtws/video/upload/v1697689851/rxkf.d6b5860f_cjd5tc.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-</section>
-    </div>
-    
-  <section class="contact-section card">
-    <h2><i class="fas fa-envelope"></i> Contact Us</h2>
-    <p>Reach out and we will get back to you within 24 hours.</p>
-    <div id="contact-section" class="contact-info">
-        <p><i class="fas fa-building"></i> Walt Technology Group Co. Ltd</p>
-        <p><i class="fas fa-map-marker-alt"></i> Haining Shi, Jiaxing Shi, Zhejiang, China</p>
-        <a href="mailto:silent@waltknit.com"><i class="fas fa-envelope-open-text"></i> Email Us</a>
-        <a href="https://www.google.com/maps/search/?api=1&query=48+shijing+road,+haining+city,+Jiaxing+city+Zhejiang+province,+china,+314400" target="_blank" class="directions-link"><i class="fas fa-directions"></i> Get directions</a>
+        <section class="print-on-demand-video">
+            <video width="100%" controls autoplay loop muted height="auto">
+                <source src="https://res.cloudinary.com/dq928gtws/video/upload/v1697689851/rxkf.d6b5860f_cjd5tc.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+    </section>
 
-    </div>
+    <!-- Contact Us Section -->
+    <section class="contact-section card">
+        <h2><i class="fas fa-envelope" alt="Envelope Icon"></i> Contact Us</h2>
+        <p>Reach out and we will get back to you within 24 hours.</p>
+        <div id="contact-section" class="contact-info">
+            <p><i class="fas fa-building" alt="Building Icon"></i> Walt Technology Group Co. Ltd</p>
+            <p><i class="fas fa-map-marker-alt" alt="Map Marker Icon"></i> Haining Shi, Jiaxing Shi, Zhejiang, China</p>
+            <a href="mailto:silent@waltknit.com"><i class="fas fa-envelope-open-text" alt="Envelope Open Text Icon"></i> Email Us</a>
+            <a href="https://www.google.com/maps/search/?api=1&query=48+shijing+road,+haining+city,+Jiaxing+city+Zhejiang+province,+china,+314400" target="_blank" rel="noopener" class="directions-link"><i class="fas fa-directions" alt="Directions Icon"></i> Get directions</a>
+        </div>
+    </section>
       
 <form id="contact-form">
     
-    <label><i class="fas fa-user"></i> Name</label>
-    <input type="text" name="name" required>
+    <label for="name"><i class="fas fa-user"></i> Name</label>
+    <input type="text" id="name" name="name" aria-label="Name" placeholder="Enter your name" required>
     
-    <label><i class="fas fa-envelope"></i> Email*</label>
-    <input type="email" name="email" required>
+    <label for="email"><i class="fas fa-envelope"></i> Email*</label>
+    <input type="email" id="email" name="email" aria-label="Email" placeholder="Enter your email" required>
     
-    <label><i class="fas fa-phone-alt"></i> Phone</label>
-    <input type="tel" name="phone">
+    <label for="phone"><i class="fas fa-phone-alt"></i> Phone</label>
+    <input type="tel" id="phone" name="phone" aria-label="Phone" placeholder="Enter your phone number">
     
-    <label><i class="fas fa-comment-dots"></i> Message</label>
-    <textarea name="message" required></textarea>
+    <label for="message"><i class="fas fa-comment-dots"></i> Message</label>
+    <textarea id="message" name="message" aria-label="Message" placeholder="Enter your message" required></textarea>
     
-    <label><i class="fas fa-paperclip"></i> Google Drive Links</label>
+    <label for="drive-link"><i class="fas fa-paperclip"></i> Google Drive Links</label>
     <p>Please make sure your Google Drive links are publicly accessible.</p>
     <div id="link-container">
         <div class="link-input-group">
-            <input type="url" name="drive-link" class="drive-link" placeholder="https://drive.google.com/..." required>
+            <input type="url" id="drive-link" name="drive-link" class="drive-link" aria-label="Google Drive Link" placeholder="https://drive.google.com/..." required>
             <button type="button" class="add-link" onclick="addLinkInput()">
-                <i class="fas fa-plus"></i>
+                <i class="fas fa-plus"></i> Add Link
             </button>
         </div>
     </div>
@@ -235,27 +240,27 @@
     </div>
 </form>
 
-      <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
-      
-      
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
 </section>
     
-    <div class="footer-section">
+<footer>
+    <section class="footer-section">
         <h3>Note To Partners:</h3>
         <p>At Walt Technology Group, we're pioneering the future of apparel including wearable technology. Our commitment to innovation and excellence has positioned us at the forefront of the apparel industry. We also offer an incubator partnership program for small to medium apparel brands, helping them scale and achieve remarkable growth.</p>
-      <div class="footer-nav">
-    <h3>Quick Links:</h3>
-    <ul>
-        <li><a href="#hero-section">Home</a></li>
-        <li><a href="#about-section">About</a></li>
-        <li><a href="#idea-section">Ideas</a></li>
-        <li><a href="#credibility-section">Credibility</a></li>
-        <li><a href="#contact-section">Contact Us</a></li>
-        <li><a href="#print-on-demand">Print on Demand</a></li>
-    </ul>
-</div>
+      
+        <section class="footer-nav">
+            <h3>Quick Links:</h3>
+            <ul>
+                <li><a href="#hero-section" rel="noopener">Home</a></li>
+                <li><a href="#about-section" rel="noopener">About</a></li>
+                <li><a href="#idea-section" rel="noopener">Ideas</a></li>
+                <li><a href="#credibility-section" rel="noopener">Credibility</a></li>
+                <li><a href="#contact-section" rel="noopener">Contact Us</a></li>
+                <li><a href="#print-on-demand" rel="noopener">Print on Demand</a></li>
+            </ul>
+        </section>
         <p>Copyright © 2023 Walt Technology Group Co. Ltd - All Rights Reserved.</p>
-    </div>
+    </section>
     <span id="siteseal"><script async type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=1fTFMMXNdHW3y6ym14pLyQtBmxAw8zaeqnfJSYOjSuADqd4rFkwh4MGJeJW8"></script></span>
 </footer>
 
